@@ -91,7 +91,7 @@ ul, ol,b{
 ​
 <body>
 
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/unnamed.jpg" width = "500" height= "500">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/unnamed.jpg" width = "500" height= "500">
 
 
 <h2 class="title is-3 ">Cloud Pak Sample App</h2>
@@ -126,23 +126,26 @@ To ensure a completely immersive experience with Cloud Pak services, create an a
 
 <p>Step1: Click the below button to create IBM MQ instance through IBM cloud CLI commands.</p>
 <a class="button is-dark is-medium" title="IBM MQ" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs terminal 1$$ibmcloud resource service-instance-create mqinstance mqcloud lite eu-gb">IBM MQ</a><br><br>
-<p>Step 2 : After creating the instance you will be re-directed to a page as shown below.click on create button to create queue manager.
+<p>Step 2 : Go to <a href='https://cloud.ibm.com/resources'>IBM cloud resources.Expand the <b>services</b> row and click the <b>mqinstace</b> that has been created.</a>
  </p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step2.png" width = "750" height= "750">
-<p>Step 3 : Give queue manager a name and click on create.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step3.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/IBM-cloud-resourceList.png" width = "750" height= "750">
+<p>Step 3 : On clicking the instance you will be re-directed to a page as shown below.click on create button to create queue manager.
+ </p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step2.png" width = "750" height= "750">
+<p>Step 4 : Give queue manager a name and click on create.</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step3.png" width = "750" height= "750">
 
-<p>Step 4 : Creating queue manager takes some time. When the status changes to running it indicates that queue manager is ready to use.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step4.png" width = "750" height= "750">
+<p>Step 5 : Creating queue manager takes some time. When the status changes to running it indicates that queue manager is ready to use.</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step4.png" width = "750" height= "750">
 
-<p>Step 5 : Click on Application credentials and click on Add.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step5.png" width = "750" height= "750">
-<p>Step 6 : Give a display name and click in add and generate API Key.Download the file</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step6.png" width = "750" height= "750">
-<p>Step 7 : Go to <b>Queue managers</b> tab and click on the queue manager that you have created in step in step3.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step7.png" width = "750" height= "750">
-<p>Step 8 : Download the connection information as shown in the below image.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step8.png" width = "750" height= "750">
+<p>Step 6 : Click on Application credentials and click on Add.</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step5.png" width = "750" height= "750">
+<p>Step 7 : Give a display name and click in add and generate API Key.Download the file</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step6.png" width = "750" height= "750">
+<p>Step 8 : Go to <b>Queue managers</b> tab and click on the queue manager that you have created in step in step3.</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step7.png" width = "750" height= "750">
+<p>Step 9 : Download the connection information as shown in the below image.</p>
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/MQ-step8.png" width = "750" height= "750">
 <br/>
 <br/>
 <br/>
@@ -155,14 +158,14 @@ To ensure a completely immersive experience with Cloud Pak services, create an a
 <br>
 
 <p>On clicking the above button you will be redirected to a page as shown in the below figure.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/machineLearning-instance.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/machineLearning-instance.png" width = "750" height= "750">
 <br/>
 <br/>̌
 <h4>2.3 MongoDB on IBM cloud</h4>
 <p>Click on the below button to create a MongoDB instance on IBM cloud .</p>
 <a class="button is-dark is-medium" title="Databases for MongoDB" href="https://dataplatform.cloud.ibm.com/data/catalog/databases-for-mongodb?context=cpdaas&target=services">Databases for MongoDB</a><br>
 <p>On clicking the above button you will be redirected to a page as shown in the below figure.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/Mongo-instance.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/Mongo-instance.png" width = "750" height= "750">
 <br>
 </body>
 
@@ -186,7 +189,10 @@ To ensure a completely immersive experience with Cloud Pak services, create an a
 
 </li>
 <li>
-<p>Step 2 :  Click <a href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal%201$$cd ${CHE_PROJECTS_ROOT}/LoanAPP-MQ ; ibmcloud%20iam api-key-create%20MyKey%20-d%20'this is my API key'%20--file ${CHE_PROJECTS_ROOT}/LoanAPP-MQ/key_file">Generate api key</a> through IBM cloud CLI commands.</p>This will generate API key with name <b>MyKey</b> and the value of API key will be stored in <b>key_file</b> file in the main directory of the project.
+
+<p>Step 2 :  Click the below button to generate api key through IBM cloud CLI commands.</p><br>
+<a class="button is-dark is-medium" title="Generate API key" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal%201$$cd ${CHE_PROJECTS_ROOT}/LoanAPP-MQ ; ibmcloud%20iam%20api-key-create%20ApiKey-LoanApp-MQ%20-d%20'this is API key for loanapp-MQ'%20--file ${CHE_PROJECTS_ROOT}/LoanAPP-MQ/key_file">Generate api key</a><br> 
+<p>This will generate API key with name <b>ApiKey-LoanApp-MQ</b> and the value of API key will be stored in <b>key_file</b> file in the main directory of the project.</p>
 </li>
 </ul>
 
@@ -194,14 +200,14 @@ To ensure a completely immersive experience with Cloud Pak services, create an a
 <li>
 <p>Step 1 : Go to <a href="https://dataplatform.cloud.ibm.com/">IBM CloudPak for data</a> and login with your mail id. Once you login click on view all spaces button as shown in the figure below.
  </p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step1-spaceId.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step1-spaceId.png" width = "750" height= "750">
 </li>
 <li>
 <p>Step 2 :  Click on create deployment space.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step2-spaceId.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step2-spaceId.png" width = "750" height= "750">
 </li>
 <li><p>Step 3 : Give the deployment a name and add a machine learning instance that you have earlier created.Click on create button after filling the details.</p>
-<img src = "https://github.com/IBM/Developer-Playground/blob/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step3-spaceID.png" width = "750" height= "750">
+<img src = "https://github.com/IBM/Developer-Playground/raw/475f1649ea46e4b31f7e9f4a8cb1760e59f03d55/didact/images/step3-spaceID.png" width = "750" height= "750">
 </li>
 <li>
 <p>Step 4 : Click on view deployement space and then select manage tab.Under this tab, copy the space GUID.</p>
@@ -251,3 +257,8 @@ To ensure a completely immersive experience with Cloud Pak services, create an a
 <p>Deleting deployment will help you save CUH.</p>
 
 <a class="button is-dark is-medium" title="Delete deployment" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs terminal 1$$cd ${CHE_PROJECTS_ROOT}/LoanAPP-MQ ;python3.8+./DeleteDeploy/deleteDeploy.py">Delete Deployment</a><br>
+  
+<span style="color:grey"><h2>10.Delete API key</h2></span>
+
+<p>Click the below button to delete API key generated in step 4 through IBM cloud CLI command both from the sample app and IBM cloud.</p>
+<a class="button is-dark is-medium" title="Delete API Key" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs terminal 1$$cd ${CHE_PROJECTS_ROOT}/LoanAPP-MQ ;ibmcloud iam api-key-delete ApiKey-LoanApp-MQ ; rm ${CHE_PROJECTS_ROOT}/LoanAPP-MQ/key_file">Delete API Key</a><br>
